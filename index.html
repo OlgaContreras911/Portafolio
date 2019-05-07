@@ -2,31 +2,137 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <title> Portafolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <title> Portafolio</title>
 </head>
 
 <body>
-    <div>
-            <h1>Portafolio</h1>
-            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                <label class="btn btn-secondary active color">
-                  <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
-                </label>
-                <label class="btn btn-secondary">
-                  <input type="radio" name="options" id="option2" autocomplete="off"> Radio
-                </label>
-                <label class="btn btn-secondary">
-                  <input type="radio" name="options" id="option3" autocomplete="off"> Radio
-                </label>
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Portafolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#aboutme">About Me <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CV</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="aboutme">
+      <h1>hola</h1>
+    </section>
+   <div id="proyectos">
+   <div class="card-deck">
+      <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="./assets/DataLovers.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Data Lovers</h5>
+                <p class="card-text">El propósito de este producto, es facilitar el acceso de información demográfica femenina, que utilizan las ONG para la planificación de servicios sociales
+                    de México, Perú, Chile y Brasil. Muestra gráficas y estadísticas</p>
+                <a href="https://github.com/OlgaContreras911/olga-data-lovers" class="card-link btn btn-primary">PROYECTO</a>
+                <a href="https://olgacontreras911.github.io/olga-data-lovers/src/" class="card-link btn btn-primary">DEMO</a>
               </div>
+            </div>
+          </div>
+        </div>
+  <div class="card mb-3" style="max-width: 540px;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="./assets/SocialNetwork.png" class="card-img" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Social Learning</h5>
+            <p class="card-text">Social Learning es pensada como una Red Social para compartir información sobre el Desarrollo web,
+                entre estudiantes, profesionistas o académicos. Permite postear, editar y eliminar mensajes.</p>
+            <a href="https://github.com/OlgaContreras911/CDMX007-social-network" class="card-link btn btn-primary">PROYECTO</a>
+              <a href="https://olgacontreras911.github.io/CDMX007-social-network/src/index.html" class="card-link btn btn-primary">DEMO</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="./assets/MdLinks.png" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Md-links</h5>
+              <p class="card-text">El objetivo de esta librería es validar los links encontrados en un archivo o archivos .md y obtener estadísticas de los mismos. </p>
+              <a href="https://github.com/OlgaContreras911/CDMX007-fe-md-links" class="card-link btn btn-primary">PROYECTO</a>
+              <a href="https://www.npmjs.com/package/mdlink-sogcm" class="card-link btn btn-primary">DEMO</a>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+     <!-- <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top Portfolioimg" src="./assets/DataLovers.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Data Lovers</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-body">
+              <a href="https://github.com/OlgaContreras911/CDMX007-fe-md-links" class="card-link btn btn-primary">PROYECTO</a>
+              <a href="https://www.npmjs.com/package/mdlink-sogcm" class="card-link btn btn-primary">DEMO</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Social Network</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-body">
+              <a href="https://github.com/OlgaContreras911/CDMX007-fe-md-links" class="card-link btn btn-primary">PROYECTO</a>
+              <a href="https://www.npmjs.com/package/mdlink-sogcm" class="card-link btn btn-primary">DEMO</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Md-links</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-body">
+            <a href="https://github.com/OlgaContreras911/CDMX007-fe-md-links" class="card-link btn btn-primary">PROYECTO</a>
+            <a href="https://www.npmjs.com/package/mdlink-sogcm" class="card-link btn btn-primary">DEMO</a>
+          </div>
+        </div>
+      </div>-->
+
+    
+  </div>
+  
+
+  <!--  <div id="carouselExampleIndicators" class="carousel slide container size" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -53,18 +159,18 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>
+      </div>-->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
