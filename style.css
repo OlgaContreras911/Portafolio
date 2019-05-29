@@ -137,3 +137,7 @@ body {
 .contact-container {
   padding-top: 23px;
 }
+.color-button {
+  background-color: #660066;
+  border-color: #660066;
+}
