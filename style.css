@@ -110,8 +110,8 @@ body {
 }
 
 #proyectos {
-  margin-top: 4%;
   margin-bottom: 4%;
+  padding-top: 23px;
 }
 .img-back {
   background-color: white;
@@ -121,4 +121,7 @@ body {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+#herramientas {
+  padding-top: 23px;
 }
