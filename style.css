@@ -87,6 +87,7 @@ body {
 .card-about {
   background-color: transparent;
   border-style: none;
+  padding-top: 24px;
 }
 .text-about {
   padding-top: 95px;
@@ -119,9 +120,20 @@ body {
 }
 .col-size {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 29px;
   padding-bottom: 10px;
 }
 #herramientas {
+  padding-top: 23px;
+}
+.size-body {
+  padding-bottom: 51px;
+  padding-top: 46px;
+}
+.contact-h1 {
+  padding-bottom: 23px;
+  padding-top: 23px;
+}
+.contact-container {
   padding-top: 23px;
 }
