@@ -1,5 +1,7 @@
-body {
+* {
   padding: 0%;
+}
+body {
   margin: 0%;
   width: 100%;
   height: 90%;
@@ -93,4 +95,30 @@ body {
 }
 .title-about {
   font-size: 1.5rem;
+}
+
+#aboutme {
+  margin-top: 9%;
+  margin-bottom: 4%;
+}
+
+.title {
+  color: white;
+  border-bottom-style: solid;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#proyectos {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.img-back {
+  background-color: white;
+  size: 20%;
+}
+.col-size {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
