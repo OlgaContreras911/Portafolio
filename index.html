@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <title>Portafolio Olga Contreras</title>
+    <title data-localize="title" >Portafolio Olga Contreras</title>
   </head>
 
   <body >
@@ -37,28 +37,29 @@
 
       <div class="collapse navbar-collapse " id="navbarNav">
         <ul class="ml-auto navbar-nav">
+           
             <li class="nav-item active text-left">
-                <a class="nav-link text-whitenav" href="#inicio"
+                <a  data-localize="menu.home" class="nav-link text-whitenav" href="#inicio"
                   >Inicio<span class="sr-only">(current)</span></a
                 >
               </li>
           <li class="nav-item active">
-            <a class="nav-link text-whitenav" href="#aboutme"
+            <a data-localize="menu.aboutme" class="nav-link text-whitenav" href="#aboutme"
               > Sobre mí<span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link text-whitenav" href="#proyectos"
+            <a data-localize="menu.projects" class="nav-link text-whitenav" href="#proyectos"
               >Proyectos</a
             >
           </li>
           
           <li class="nav-item">
-            <a class="nav-link  text-whitenav" href="#herramientas"
+            <a data-localize="menu.tools" class="nav-link  text-whitenav" href="#herramientas"
               > Herramientas</a
             >
             <li class="nav-item">
-              <a class="nav-link  text-whitenav" href="#contacto"
+              <a data-localize="menu.contact" class="nav-link  text-whitenav" href="#contacto"
                 >Contacto</a
               >
             </li>  
@@ -70,6 +71,16 @@
               >CV</a
             >
           </li>
+          <li class="nav-item active text-left">
+              <a  id="en" class="nav-link text-whitenav" 
+                >EN<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active text-left">
+                <a id="es"  class="nav-link text-whitenav" 
+                  >ES<span class="sr-only">(current)</span></a
+                >
+              </li>
         </ul>
       </div>
     </nav>
@@ -87,9 +98,9 @@
             </div>
             <div class="col-md-8">
               <div class="card-body text-about">
-                <h5 class="card-title title-about">Sobre mí
+                <h5 data-localize="about.me" class="card-title title-about">Sobre mí
                 </h5>
-                <p class="card-text">
+                <p data-localize="about.content" class="card-text">
                   Front-End Developer, egresada de Laboratoria. Interesada en
                   crear, innovar y mejorar proyectos tecnológicos; comprometida
                   con mi trabajo y responsabilidades, creo en la evolución
@@ -104,7 +115,7 @@
       
     <section class="m-5" id="proyectos">
       <div class="head">
-      <h1 class="title my-5">Proyectos</h1>
+      <h1 data-localize="projects.title" class="title my-5">Proyectos</h1>
     </div>
       <div class="card-deck">
         <div class="card mb-3" style="max-width: 540px;">
@@ -114,19 +125,19 @@
             </div>
             <div class="col-md-8">
               <div class="card-body text-center ">
-                <h5 class="card-title text-center">Data Lovers</h5>
-                <p class="card-text text-center">
+                <h5  class="card-title text-center">Data Lovers</h5>
+                <p data-localize="projects.contentdata" class="card-text text-center">
                   El propósito de este producto, es facilitar el acceso de
                   información demográfica femenina, que utilizan las ONG para la
                   planificación de servicios sociales de México, Perú, Chile y
-                  Brasil. Muestra gráficas y estadísticas
+                  Brasil. Muestra gráficas y estadísticas.
                 </p>
-                <a
+                <a data-localize="projects.buttonproject"
                   href="https://github.com/OlgaContreras911/olga-data-lovers" target="_blank"
                   class="card-link btn btn-primary color-button text-center "
                   >PROYECTO</a
                 >
-                <a
+                <a 
                   href="https://olgacontreras911.github.io/olga-data-lovers/src/" target="_blank"
                   class="card-link btn btn-primary color-button"
                   >DEMO</a
@@ -147,13 +158,13 @@
             <div class="col-md-8">
               <div class="card-body size-body text-center">
                 <h5 class="card-title text-center">Social Learning</h5>
-                <p class="card-text text-center">
+                <p data-localize="projects.contentsocial" class="card-text text-center">
                   Social Learning es una aplicación pensada como una Red Social para compartir
                   información sobre el Desarrollo web, entre estudiantes,
                   profesionistas o académicos. Permite postear, editar y
                   eliminar mensajes.
                 </p>
-                <a
+                <a data-localize="projects.buttonproject"
                   href="https://github.com/OlgaContreras911/CDMX007-social-network" target="_blank"
                   class="card-link btn btn-primary color-button"
                   >PROYECTO</a
@@ -175,13 +186,13 @@
             <div class="col-md-8">
               <div class="card-body text-center">
                 <h5 class="card-title text-center">Md-links</h5>
-                <p class="card-text text-center">
+                <p data-localize="projects.contentmd" class="card-text text-center">
                   El objetivo de esta librería es validar los links encontrados
                   en un archivo o archivos .md y obtener estadísticas de los
                   mismos. La instalación se realiza con el comando npm
                   mdlink-sogcm por medio de la terminal.
                 </p>
-                <a
+                <a data-localize="projects.buttonproject"
                   href="https://github.com/OlgaContreras911/CDMX007-fe-md-links" target="_blank"
                   class="card-link btn btn-primary color-button"
                   >PROYECTO</a
@@ -197,7 +208,7 @@
         </div>
       </section>
       <section class="m-5" id="herramientas">
-      <h1 class="title my-5">Herramientas</h1>
+      <h1 data-localize="menu.tools" class="title my-5">Herramientas</h1>
       <div class="container">
       <div class="card" style="width: 100%;">
         <div class="card-body">
@@ -250,7 +261,7 @@
       </section>
       
     <section class=" color-purpule"  id="contacto">
-          <h1 class="title contact-h1">Contacto</h1>
+          <h1 data-localize="menu.contact" class="title contact-h1">Contacto</h1>
           <div class="container pb-4 contact-container">
               <div class="row">
                 <div class="col-sm text-whitenav">
@@ -265,14 +276,14 @@
                     <a href="mailto:olga.contreras9112@gmail.com" class="text-whitenav" target="_blank"
                     title="E-mail"><img src="./assets/mail.png" alt=""> E-mail</a>  
                 </div>
-                <div class="col-sm text-whitenav">
-                    <a href="tel:+525510316021"class="text-whitenav" target="_blank"
-                    title="Teléfono"><img src="./assets/phone-call.png" alt=""> Teléfono</a>
+                <div  class="col-sm text-whitenav">
+                    <a  href="tel:+525510316021"class="text-whitenav" target="_blank"
+                    title="Teléfono"><img src="./assets/phone-call.png" alt=""> <span data-localize="phone" >Teléfono</span></a>
                 </div>
                 <div class="col-sm text-whitenav">
                     <a href="https://www.google.com/maps/place/Roma+Nte.,+06700+Ciudad+de+M%C3%A9xico,+CDMX/@19.4181527,-99.1739561,15z/data=!3m1!4b1!4m5!3m4!1s0x85d1ff39f2a2e4cd:0x2d9a33e867c32532!8m2!3d19.4195256!4d-99.162549"
                   class="text-whitenav" target="_blank"
-                  title="Ubicación"><img src="./assets/pin.png" alt=""> Ciudad de México</a>   
+                  title="Ubicación"><img src="./assets/pin.png" alt=""> <span data-localize="city" >Ciudad de México</span></a>   
                 </div>
               </div>
             </div>
@@ -295,6 +306,9 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="jquery.js"></script>
+    <script src="jquery.localize.js"></script>
+   
     <script src="main.js"></script>
   </body>
 </html>

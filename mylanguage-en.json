@@ -1,0 +1,24 @@
+{
+  "title": "Portfolio Olga Contreras",
+  "menu": {
+    "home": "Home",
+    "aboutme": "About me",
+    "projects": "Projects",
+    "tools": "Tools",
+    "contact": "Contact"
+  },
+  "about": {
+    "me": "About me",
+    "content": "Front-End Developer, graduated from Laboratora. Interested in create, innovate and improve technological projects; Committed to my work and responsibilities, I believe in the continuous evolution of learning and in teamwork. Among the soft skills I can offer are empathy, teamwork, honesty and proactivity."
+  },
+  "projects": {
+    "title": "Projects",
+    "contentdata": "The purpose of this product is to facilitate access to female demographic information, which NGOs use for social services planning in Mexico, Peru, Chile and Brazil. Show graphs and statistics.",
+    "contentsocial": "Social Learning is an application designed as a Social Network to share information about Web Development, among students, professionals or academics. It allows to post, edit and delete messages.",
+    "contentmd": "The purpose of this library is to validate the links found in a .md file or files and obtain statistics from them. The installation is done with the npm mdlink-sogcm command through the terminal.",
+    "buttonproject": "PROJECT"
+  },
+  "phone": "Phone",
+  "phoneloc": "./assets/phone-call.png",
+  "city": "Mexico City"
+}

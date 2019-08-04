@@ -1,0 +1,23 @@
+{
+  "title": "Portafolio Olga Contreras",
+  "menu": {
+    "home": "Inicio",
+    "aboutme": "Sobre mí",
+    "projects": "Proyectos",
+    "tools": "Herramientas",
+    "contact": "Contacto"
+  },
+  "about": {
+    "me": "Sobre mí",
+    "content": "Front-End Developer, egresada de Laboratoria. Interesada en crear, innovar y mejorar proyectos tecnológicos; comprometida con mi trabajo y responsabilidades, creo en la evolución  continua del aprendizaje y en el trabajo en equipo. Dentro de las habilidades blandas que puedo ofrecer se encuentran la empatía el trabajo en equipo, la honestidad y la proactividad."
+  },
+  "projects": {
+    "title": "Proyectos",
+    "contentdata": "El propósito de este producto, es facilitar el acceso de información demográfica femenina, que utilizan las ONG para la planificación de servicios sociales de México, Perú, Chile y Brasil. Muestra gráficas y estadísticas.",
+    "contentsocial": "Social Learning es una aplicación pensada como una Red Social para compartir información sobre el Desarrollo web, entre estudiantes, profesionistas o académicos. Permite postear, editar y eliminar mensajes.",
+    "contentmd": "El objetivo de esta librería es validar los links encontrados en un archivo o archivos .md y obtener estadísticas de los mismos. La instalación se realiza con el comando npm mdlink-sogcm por medio de la terminal.",
+    "buttonproject": "PROYECTO"
+  },
+  "phone": "Teléfono",
+  "city": "Ciudad de México"
+}
